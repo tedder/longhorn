@@ -18,7 +18,7 @@ kubectl delete -f https://raw.githubusercontent.com/longhorn/longhorn/v0.7.0/exa
 3. Wait for the app to complete the upgrade.
 
 ### Use YAML file
-Use `kubectl apply https://raw.githubusercontent.com/longhorn/longhorn/v0.7.0/deploy/longhorn.yaml`
+Use `kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v0.7.0/deploy/longhorn.yaml`
 
 And wait for all the pods to become running and Longhorn UI working.
 
