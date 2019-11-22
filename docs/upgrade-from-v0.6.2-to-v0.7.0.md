@@ -10,7 +10,7 @@ The users need to follow this guide to upgrade from v0.6.2 to v0.7.0.
 
 ## Upgrade
 ### Use Rancher App
-1. Run the following command to avoid [this error](#error-the-storageclass-longhorn-is-invalid-provisioner-forbidden-updates-to-provisioner-are-forbidden):
+1. Run the following command to avoid [this 'updates to provisioner are forbidden' error](#error-longhorn-is-invalid-provisioner-forbidden-updates-to-provisioner-are-forbidden):
 ```
 kubectl delete -f https://raw.githubusercontent.com/longhorn/longhorn/v0.7.0/examples/storageclass.yaml
 ```
